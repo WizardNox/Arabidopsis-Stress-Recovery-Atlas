@@ -1,0 +1,15 @@
+sheet_name,state,condition,n_genes,n_unique_genes,n_duplicate_genes,n_missing_values,min_abs_log2fc,max_adj_p,all_abs_log2fc_ge_1,all_adj_p_le_0_05
+HL ep,endpoint,high_light,55,55,0,0,1.00135545825811,0.00028401324143162,True,True
+Humidity ep,endpoint,high_humidity,249,249,0,0,1.00214399551494,0.00158663945120299,True,True
+Drought ep,endpoint,drought,5275,5275,0,0,1.00004238751055,0.0499993628090402,True,True
+Heat ep,endpoint,heat,21,21,0,0,1.00517694621881,6.07986176515677e-06,True,True
+Heat drought ep,endpoint,heat_drought,8114,8114,0,0,1.0001719242982,0.0496291921068335,True,True
+Heat HL ep,endpoint,heat_high_light,7,7,0,0,1.00349092242808,1.86866777931826e-06,True,True
+Heat drought hl ep,endpoint,heat_drought_high_light,1392,1392,0,0,1.0002934383777,0.0499523295056386,True,True
+Cold ep,endpoint,cold,960,960,0,0,1.00110480506211,0.00651473485755438,True,True
+Cold HL ep,endpoint,cold_high_light,6632,6632,0,0,1.00005292427986,0.0499718046360635,True,True
+HL rec,recovery,high_light,2,2,0,0,1.00403015529686,0.0173178810615611,True,True
+Humidity rec,recovery,high_humidity,2,2,0,0,1.1365530858333,0.0295014099958803,True,True
+Drought rec,recovery,drought,567,567,0,0,1.00010890526324,0.0499962660511269,True,True
+Heat drought rec,recovery,heat_drought,3,3,0,0,0.998038185238317,0.0346999568711343,False,True
+Cold rec,recovery,cold,5,5,0,0,1.27131509820776,0.0424422869463399,True,True

@@ -1,0 +1,6 @@
+condition,shared_genes,direction_agreements,direction_concordance
+cold,2,2,1.0
+drought,348,348,1.0
+heat_drought,2,2,1.0
+high_humidity,1,1,1.0
+high_light,1,1,1.0

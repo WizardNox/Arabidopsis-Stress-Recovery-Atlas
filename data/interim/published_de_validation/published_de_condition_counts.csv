@@ -1,0 +1,10 @@
+condition,endpoint,recovery,recovery_sheet_present,published_recovery_degs,recovery_count_status
+cold,960,5.0,True,5,exact count available
+cold_high_light,6632,,False,,exact count unavailable; paper reports <10
+drought,5275,567.0,True,567,exact count available
+heat,21,,False,,exact count unavailable; paper reports <10
+heat_drought,8114,3.0,True,3,exact count available
+heat_drought_high_light,1392,,False,,exact count unavailable; paper reports <10
+heat_high_light,7,,False,,exact count unavailable; paper reports <10
+high_humidity,249,2.0,True,2,exact count available
+high_light,55,2.0,True,2,exact count available

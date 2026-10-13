@@ -1,0 +1,6 @@
+condition,our_persistent_genes,published_recovery_degs,shared_genes,fraction_of_our_persistent_formally_de,fraction_of_published_degs_captured
+cold,71,5,2,0.028169014084507043,0.4
+drought,1240,567,348,0.2806451612903226,0.6137566137566137
+heat_drought,344,3,2,0.005813953488372093,0.6666666666666666
+high_humidity,28,2,1,0.03571428571428571,0.5
+high_light,779,2,1,0.0012836970474967907,0.5

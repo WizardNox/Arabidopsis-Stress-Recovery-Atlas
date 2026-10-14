@@ -1,0 +1,4 @@
+floor_label,multi_stress_persistent_genes,directionally_consistent,directionally_inconsistent,consistent_up,consistent_down,percent_directionally_consistent,percent_consistent_genes_up
+p90,1124,1102,22,1082,20,98.04270462633453,98.18511796733212
+p95,726,720,6,711,9,99.17355371900827,98.75
+p99,305,304,1,303,1,99.67213114754098,99.67105263157895

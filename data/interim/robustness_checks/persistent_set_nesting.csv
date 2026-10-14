@@ -1,0 +1,10 @@
+condition,p95_subset_of_p90,p99_subset_of_p95,p99_subset_of_p90
+cold,True,True,True
+cold_high_light,True,True,True
+drought,True,True,True
+heat,True,True,True
+heat_drought,True,True,True
+heat_drought_high_light,True,True,True
+heat_high_light,True,True,True
+high_humidity,True,True,True
+high_light,True,True,True

@@ -1,0 +1,4 @@
+comparison,n_terms_a,n_terms_b,shared_significant_terms,jaccard
+p90_vs_p95,27,24,22,0.7586206896551724
+p95_vs_p99,24,14,13,0.52
+p90_vs_p99,27,14,13,0.4642857142857143

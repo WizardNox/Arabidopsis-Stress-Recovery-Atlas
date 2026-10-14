@@ -1,0 +1,4 @@
+floor_label,persistent_at_least_1,persistent_at_least_2,persistent_at_least_3,persistent_at_least_4,persistent_at_least_5,persistent_at_least_6,maximum_breadth
+p90,2534,1124,576,344,149,63,9
+p95,1609,726,376,206,80,32,8
+p99,647,305,143,62,21,9,7

@@ -1,0 +1,10 @@
+condition,p90,p95,p99
+cold,9,9,8
+cold_high_light,7,8,9
+drought,2,2,3
+heat,4,4,4
+heat_drought,6,6,7
+heat_drought_high_light,5,5,5
+heat_high_light,3,3,2
+high_humidity,8,7,6
+high_light,1,1,1

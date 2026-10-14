@@ -1,0 +1,10 @@
+condition,p90,p95,p99
+cold,148,71,25
+cold_high_light,405,187,44
+drought,1934,1240,497
+heat,118,70,25
+heat_drought,480,344,129
+heat_drought_high_light,418,255,78
+heat_high_light,130,72,21
+high_humidity,61,28,9
+high_light,1134,779,361

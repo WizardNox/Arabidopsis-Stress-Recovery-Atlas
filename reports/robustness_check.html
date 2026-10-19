@@ -8735,12 +8735,12 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Reproducing the primary 95th percentile classification</span>
 
-<span class="n">original_floor</span> <span class="o">=</span> <span class="n">response_floors</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mf">0.95</span><span class="p">]</span>                    <span class="c1"># introducing the floor</span>
+<span class="n">original_floor</span> <span class="o">=</span> <span class="n">response_floors</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mf">0.95</span><span class="p">]</span>                    <span class="c1"># the floor</span>
 
 <span class="n">recovery_categories_95</span> <span class="o">=</span> <span class="p">(</span>                                    <span class="c1"># reclassifying every gene-condition combination using the floor</span>
     <span class="n">classify_recovery_profiles</span><span class="p">(</span>
@@ -8767,7 +8767,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">

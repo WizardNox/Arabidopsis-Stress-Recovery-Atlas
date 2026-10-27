@@ -1,0 +1,98 @@
+project:
+  name: "Arabidopsis Stress Recovery Atlas"
+  package_name: "arabidopsis_stress_recovery_atlas"
+  primary_dataset: "GSE226105"
+  organism: "Arabidopsis thaliana"
+
+database:
+  engine: "sqlite"
+  path: "data/processed/arabidopsis_stress_recovery.db"
+
+experimental_design:
+  control_label: "CONT"
+
+  states:
+    - "control"
+    - "endpoint"
+    - "recovery"
+
+  condition_labels:
+    "COLD": "cold"
+    "COLD HL": "cold_high_light"
+    "DROUGHT": "drought"
+    "HEAT": "heat"
+    "HEAT DROUGHT": "heat_drought"
+    "T": "heat_drought_high_light"
+    "HEAT HL": "heat_high_light"
+    "Humidity": "high_humidity"
+    "HL": "high_light"
+
+  stress_components:
+    cold:
+      - "cold"
+
+    cold_high_light:
+      - "cold"
+      - "high_light"
+
+    drought:
+      - "drought"
+
+    heat:
+      - "heat"
+
+    heat_drought:
+      - "heat"
+      - "drought"
+
+    heat_drought_high_light:
+      - "heat"
+      - "drought"
+      - "high_light"
+
+    heat_high_light:
+      - "heat"
+      - "high_light"
+
+    high_humidity:
+      - "high_humidity"
+
+    high_light:
+      - "high_light"
+
+paths:
+  raw_data: "data/raw"
+  external_data: "data/external"
+  interim_data: "data/interim"
+  processed_data: "data/processed"
+  notebooks: "notebooks"
+  visualizations: "visualizations"
+  reports: "reports"
+
+analysis:
+  pca:
+    top_variable_genes: 500
+
+  response_floor:
+    primary_quantile: 0.95
+
+  persistence:
+    high_breadth_min_conditions: 4
+
+  enrichment:
+    fdr_alpha: 0.05
+    minimum_bp_term_size: 10
+
+  go_overlap_network:
+    primary_overlap_threshold: 0.50
+
+robustness:
+  response_floor_quantiles:
+    - 0.90
+    - 0.95
+    - 0.99
+
+  go_overlap_thresholds:
+    - 0.40
+    - 0.50
+    - 0.60

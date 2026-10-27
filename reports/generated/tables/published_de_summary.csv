@@ -1,0 +1,6 @@
+condition,shared_gene_records,direction_agreements,direction_agreement_percent
+drought,348,348,100.0
+cold,2,2,100.0
+heat_drought,2,2,100.0
+high_humidity,1,1,100.0
+high_light,1,1,100.0

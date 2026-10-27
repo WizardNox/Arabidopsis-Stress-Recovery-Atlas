@@ -1,0 +1,10 @@
+condition,persistent_genes,recovered_genes,substantial_reversal_genes,not_endpoint_eligible_genes
+drought,1240,10613,89,14176
+high_light,779,1154,17,24168
+heat_drought,344,13690,54,12030
+heat_drought_high_light,255,8323,31,17509
+cold_high_light,187,11677,346,13908
+heat_high_light,72,729,13,25304
+cold,71,8838,6,17203
+heat,70,1226,14,24808
+high_humidity,28,1661,23,24406

@@ -1,0 +1,194 @@
+project:
+  name: "Arabidopsis Stress Recovery Atlas"
+  primary_dataset: "GSE226105"
+  organism: "Arabidopsis thaliana"
+  scientific_phase_status: "complete"
+
+dataset:
+  source_gene_rows: 28775
+  expression_samples: 57
+  informative_genes: 26118
+  all_zero_genes: 2657
+
+experimental_design:
+  control_samples: 3
+  endpoint_samples: 27
+  recovery_samples: 27
+  stress_conditions: 9
+  biological_replicates_per_stress_state: 3
+
+primary_response_floor:
+  percentile: 0.95
+  rlog_units: 0.342263
+
+persistent_gene_counts:
+  at_least_1_stress: 1609
+  at_least_2_stresses: 726
+  at_least_3_stresses: 376
+  at_least_4_stresses: 206
+  at_least_5_stresses: 80
+
+persistence_breadth_distribution:
+  1: 883
+  2: 350
+  3: 170
+  4: 126
+  5: 48
+  6: 17
+  7: 13
+  8: 2
+  9: 0  
+
+primary_p95_persistence_by_condition:
+  cold: 71
+  cold_high_light: 187
+  drought: 1240
+  heat: 70
+  heat_drought: 344
+  heat_drought_high_light: 255
+  heat_high_light: 72
+  high_humidity: 28
+  high_light: 779
+
+directional_consistency:
+  multi_stress_persistent_genes: 726
+  directionally_consistent_genes: 720
+  consistently_above_control: 711
+  consistently_below_control: 9
+
+functional_analysis:
+  high_breadth_foreground_genes: 206
+  
+  significant_bp_term_pairs: 990
+  bp_pairs_without_shared_genes: 562
+  bp_pairs_with_shared_genes: 428
+
+  primary_bp_overlap_threshold: 0.50
+  primary_bp_strong_edges: 88
+  bp_terms_in_strong_edges: 39
+
+  largest_bp_component_terms: 35
+  largest_bp_component_edges: 86
+
+  go_slim_terms_tested: 98
+  significant_go_slim_terms: 24
+
+  bp_annotated_high_breadth_genes: 168
+  bp_annotated_background_genes: 20524
+  detailed_bp_terms_tested: 938
+  significant_detailed_bp_terms: 45
+
+  bp_term_gene_memberships: 388
+  bp_unique_foreground_genes: 120
+
+  bp_community_unique_genes: 102
+
+  bp_gene_community_breadth:
+    1: 55
+    2: 34
+    3: 11
+    4: 2
+
+  cross_community_genes_min_3: 13
+
+published_de_concordance:
+  available_recovery_conditions: 5
+  published_recovery_gene_condition_records: 579
+  shared_gene_condition_records: 354
+  direction_agreement_after_harmonization: 354
+
+  drought:
+    exploratory_persistent_genes: 1240
+    published_recovery_degs: 567
+    shared_genes: 348
+    approximate_overlap_enrichment: 12.9
+    approximate_odds_ratio: 43.9
+
+robustness:
+  response_floors:
+    p90: 0.272532
+    p95: 0.342263
+    p99: 0.554173
+
+  high_breadth_genes:
+    p90: 344
+    p95: 206
+    p99: 62
+
+  multi_stress_persistent_genes:
+    p90: 1124
+    p95: 726
+    p99: 305
+
+  directional_consistency_percent:
+    p90: 98.04
+    p95: 99.17
+    p99: 99.67
+
+  consistently_above_control_percent:
+    p90: 98.19
+    p95: 98.75
+    p99: 99.67
+
+  significant_go_slim_terms:
+    p90: 27
+    p95: 24
+    p99: 14
+
+  persistence_rank_spearman:
+    p90_vs_p95: 0.983
+    p95_vs_p99: 0.950
+    p90_vs_p99: 0.900
+
+  go_overlap_network:
+    t040:
+      threshold: 0.40
+      nodes: 45
+      edges: 115
+      components: 7
+      component_sizes: [37, 2, 2, 1, 1, 1, 1]
+      largest_component_size: 37
+      largest_component_edges: 113
+      isolated_terms: 4
+      communities: 3
+      community_sizes: [13, 13, 11]
+      modularity: 0.396022
+
+    t050:
+      threshold: 0.50
+      nodes: 45
+      edges: 88
+      components: 9
+      component_sizes: [35, 2, 2, 1, 1, 1, 1, 1, 1]
+      largest_component_size: 35
+      largest_component_edges: 86
+      isolated_terms: 6
+      communities: 4
+      community_sizes: [11, 11, 9, 4]
+      modularity: 0.426270
+
+    t060:
+      threshold: 0.60
+      nodes: 45
+      edges: 51
+      components: 18
+      component_sizes: [26, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      largest_component_size: 26
+      largest_component_edges: 49
+      isolated_terms: 15
+      communities: 4
+      community_sizes: [9, 7, 7, 3]
+      modularity: 0.478130
+
+    largest_component_similarity:
+      t040_vs_t050:
+        shared_terms: 35
+        jaccard: 0.945946
+
+      t050_vs_t060:
+        shared_terms: 26
+        jaccard: 0.742857
+
+      t040_vs_t060:
+        shared_terms: 26
+        jaccard: 0.702703

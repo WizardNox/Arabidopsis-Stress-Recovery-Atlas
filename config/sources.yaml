@@ -1,0 +1,50 @@
+sources:
+
+  expression_matrix:
+    role: "processed_expression_matrix"
+    provider: "NCBI GEO"
+    accession: "GSE226105"
+    filename: "GSE226105_rLog-Normalized_counts.csv"
+    local_path: "data/raw/GSE226105_rLog-Normalized_counts.csv"
+    format: "csv"
+    transformation: "rlog"
+    immutable: true
+    notes: >
+      Processed rlog-transformed Arabidopsis thaliana expression matrix
+      supplied through the source study. This project begins from this
+      processed matrix rather than from raw sequencing reads.
+
+  published_de_workbook:
+    role: "published_differential_expression_results"
+    provider: "source_study_supplementary_material"
+    associated_dataset: "GSE226105"
+    filename: "mmc16.xlsx"
+    local_path: "data/external/GSE226105_supplementary/mmc16.xlsx"
+    format: "xlsx"
+    immutable: true
+    notes: >
+      Supplementary workbook containing published differential-expression
+      results used for methodological concordance with the exploratory
+      recovery analysis.
+
+  araport11_functional_descriptions:
+    role: "gene_functional_annotation"
+    provider: "Araport11"
+    filename: "Araport11_functional_descriptions_20240931.txt"
+    local_path: "data/external/arabidopsis_annotation/Araport11_functional_descriptions_20240931.txt"
+    format: "txt"
+    immutable: true
+    notes: >
+      Functional descriptions used to annotate Arabidopsis gene loci
+      during biological interpretation.
+
+  ath_go_goslim:
+    role: "gene_ontology_annotation"
+    provider: "Gene Ontology / Arabidopsis annotation resource"
+    filename: "ATH_GO_GOSLIM.txt.gz"
+    local_path: "data/external/arabidopsis_annotation/ATH_GO_GOSLIM.txt.gz"
+    format: "tsv"
+    immutable: true
+    notes: >
+      Arabidopsis Gene Ontology and GO-Slim annotation table used for
+      GO-Slim and detailed Biological Process enrichment analyses.

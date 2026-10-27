@@ -489,7 +489,7 @@ Notable pairwise Jaccard similarities include:
 
 ```text
 drought ↔ high light                       ~0.410
-heat+drought ↔ heat+drought+high light    ~0.400
+heat+drought ↔ heat+drought+high light     ~0.400
 heat+drought ↔ high light                  ~0.351
 ```
 
@@ -584,7 +584,7 @@ The 45 significant terms contain:
 Across all 990 term pairs:
 
 ```text
-562 / 990 shared no foreground genes                56.8%
+562 / 990 shared no foreground genes               56.8%
 428 / 990 shared at least one foreground gene      43.2%
  88 / 990 had overlap coefficient >= 0.50           8.9%
  17 / 990 had overlap coefficient >= 0.75           1.7%
@@ -716,11 +716,11 @@ For drought:
 ```text
 Exploratory persistent genes:        1,240
 Published recovery DEGs:               567
-Shared genes:                           348
-Expected overlap by chance:           ~26.9
+Shared genes:                          348
+Expected overlap by chance:          ~26.9
 Overlap enrichment:                  ~12.9×
-Odds ratio:                           ~43.9
-BH-adjusted p-value:              ~2.47e-323
+Odds ratio:                          ~43.9
+BH-adjusted p-value:             ~2.47e-323
 ```
 
 Approximately 61.4% of the published drought recovery DEG set overlaps the exploratory drought persistent set, while 28.1% of the exploratory persistent set also meets the published DEG criteria.
